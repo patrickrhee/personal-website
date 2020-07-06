@@ -1,10 +1,26 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" >
+<html>
 	<head>
-		<title>Patrick's Website</title>
+		<meta charset="UTF-8">
+		<title>Patrick's Website</title>	
+		<link rel="stylesheet" href="main.css">
 	</head>
 	<body>
-		<h1>Welcome to my website!</h1>
-		<p>Things to do:</p>
+		<!-- Testing out a javascript script. Popup "Hello world" -->
+		<script>alert('Hello world :D')</script>
+		<h1>Task Timeline</h1>
+		<p id="date"></p>
+		<!-- This is a list of stuff. ul = "unordered list" -->
+		<!-- li = list item -->
+		<ul>
+			<li class="list">Edit the head</li>
+			<li class = "list"> Edit the body </li>
+			<li> Link to JavaScript</li>
+		</ul>
+		<!-- Script can be in head or body, but putting at end of body 
+		means we load webpage first, then load the script -->
+		<script src="app.js"></script>
+		<!-- If javascript is deactivated, this will show -->
+		<noscript>You need to enable JavaScript to view the full site!!! </noscript>
 	</body>
-</html>m
+</html>
