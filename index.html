@@ -2,12 +2,11 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
 		<title>Patrick's Website</title>	
-		<link rel="stylesheet" href="main.css">
+		<link rel="stylesheet" href="css/main.css">
 	</head>
 	<body>
-		<!-- Testing out a javascript script. Popup "Hello world" -->
-		<script>alert('Hello world :D')</script>
 		<h1>Task Timeline</h1>
 		<p id="date"></p>
 		<!-- This is a list of stuff. ul = "unordered list" -->
@@ -16,10 +15,48 @@
 			<li class="list">Edit the head</li>
 			<li class = "list"> Edit the body </li>
 			<li> Link to JavaScript</li>
+			<li> extra list item </li>
 		</ul>
+
+		<!-- Ordered list -->
+		<h1> My favorite foods </h1>
+		<ol> 
+			<li> Burritos </li>
+			<li> Curry </li>
+			<li> Ramen </li>
+			<li> Burgers </li>
+			<li> Pizza </li>
+		</ol>
+
+		<!-- Testing input manipulation -->
+		<p>Enter your name please: <input type="text" id="fname" onchange="nameUpperCase()"> <br> Testing out the break tag.</p>
+
+		<!-- Different character styles -->
+		<p> <strong> bold text </strong> <br>
+			<em> italic text </em> <br>
+			<u>underlined text</u> <br>
+			<strike>striked out text </strike> <br>
+			<font face="Times New Roman" size="4" color="green"> Custom font, size, and colored text </font>
+		</p>
+
+		<!-- Picture -->
+		<!-- relative referenced image source -->
+		<p>
+			<!-- target="_blank" makes the link open in a new window -->
+			<a href="https://www.youtube.com/watch?v=ECmpUJdgm-g" target="_blank"><img src="media/image1.jpg" width="272" height="240"></a>
+			<a href="http://www.nyan.cat"><img src="media/image2.jpg" width="145" height="240"></a>
+			<iframe src="https://giphy.com/embed/gx54W1mSpeYMg" width="480" height="448" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/pixel-pusheen-nyan-cat-gx54W1mSpeYMg">via GIPHY</a></p>
+		</p>
+
+		<video width="30%" controls>
+			<source src="media/video1.mp4" type="video/mp4">
+			Your browser doesn't support the video tag.
+		</video>
+
+
 		<!-- Script can be in head or body, but putting at end of body 
 		means we load webpage first, then load the script -->
-		<script src="app.js"></script>
+		<script src="javascript/app.js"></script>
 		<!-- If javascript is deactivated, this will show -->
 		<noscript>You need to enable JavaScript to view the full site!!! </noscript>
 	</body>
