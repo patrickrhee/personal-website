@@ -1,9 +1,8 @@
 .hawaii-background {
 	background-image: url(../media/hawaii-bg.jpeg);
 	background-repeat: no-repeat;
-  	background-attachment: fixed;
-  	background-size: cover;
-  	background-position: 50% 115%;
+	background-size: cover;
+  	background-position: 50% 75%;
 }
 
 .circle {
@@ -21,9 +20,23 @@
 
 }
 
-.translucent-white-bg {
+.text-white-bg {
 	background-color: rgba(255, 255, 255, .75);
 	border-radius: 2%;
 	height: 100%;
 }
 
+.social {
+	width: 33px;
+	object-fit: contain;
+}
+
+.social-bg {
+	background-color: rgba(255, 255, 255, .95);
+	border-radius: 2%;
+}
+
+.carousel-item {
+	height: 200px;
+	object-fit: cover;
+}
