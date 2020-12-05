@@ -29,7 +29,7 @@
 					<li class="nav-item"><a class="nav-link active" href="#">Example Works</a></li>
 				</ul>
 				<!-- Socials -->
-					<a href="https://www.linkedin.com/in/patrick-rhee-04262b186/" target="_blank">
+					<a href="https://www.linkedin.com/in/patrickrhee" target="_blank">
 						<img src="../media/LI-In-Bug.png" class="social mr-2">
 					</a>
 					<a href="https://github.com/patrickrhee "target="_blank">
@@ -66,21 +66,22 @@
 							<!-- Image formating for carousel-inner was a bit difficult/wonky. Had do poke around a lot with each individual image. Semaphore was especially wonky. -->
 							<!-- First project -->
 							<div class="carousel-item active">
-								<p class="ml-1" style="position: absolute;">Image Credits: Me</p>
-								<img class="d-none d-md-block mx-auto h-100" src="../media/binarySearchTree.png" alt="Binomial Search Tree">
-								<img class="d-block d-md-none mx-auto my-3" src="../media/binarySearchTree.png" alt="Binomial Search Tree">
-							</div>
-							<!-- Second project -->
-							<div class="carousel-item justify-content-center">
-								<p class="ml-1" style="position: absolute;">Image Credits: Me</p>
-								<img class="d-none d-md-block mx-auto h-100" src="../media/semaphore.png" alt="Custom Semaphore">
-								<img class="d-block d-md-none my-4 justify-content-center w-100 h-auto" id="semaphoreSmall" src="../media/semaphore.png" alt="Custom Semaphore">
-							</div>
-							<!-- Third project -->
-							<div class="carousel-item">
 								<p class="ml-1" style="position: absolute;">Image Credits: <a href="https://www.logaster.com/blog/minecraft-logo/" target="_blank">logaster.com</a></p>
 								<img class="d-none d-md-block mx-auto h-100" src="../media/minecraft.png" alt="Custom Minecraft Plugin">
 								<img class="d-block d-md-none mx-auto my-3" src="../media/minecraft.png" alt="Custom Minecraft Plugin">
+							</div>
+							
+							<!-- Second project -->
+							<div class="carousel-item justify-content-center">
+								<p class="ml-1" style="position: absolute;">Image Credits: N/A</p>
+								<img class="d-none d-md-block mx-auto h-100" src="../media/puzzlestealth.png" alt="Custom Game">
+								<img class="d-block d-md-none my-4 justify-content-center w-100 h-auto" id="semaphoreSmall" src="../media/puzzlestealth.png" alt="Custom Game">
+							</div>
+							<!-- Third project -->
+							<div class="carousel-item">
+								<p class="ml-1" style="position: absolute;">Image Credits: N/A</p>
+								<img class="d-none d-md-block mx-auto h-100" src="../media/binarySearchTree.png" alt="Binomial Search Tree">
+								<img class="d-block d-md-none mx-auto my-3" src="../media/binarySearchTree.png" alt="Binomial Search Tree">
 							</div>
 						</div>
 						<a class="carousel-control-prev" href="#projectsCarousel" role="button" data-slide="prev">
@@ -98,30 +99,31 @@
 
 			<!-- Project Description -->
 
-			<!-- Binary Search Tree (CS1501 Proj 2) -->
-			<div class="row" id="description0" style="display: block">
-				<div class="col-12">
-					<h5>Binary Search Tree</h5>
-					<p>Language Used: Java</p>
-					<p>This program looks for an optimal "Binary Search Tree" given a set of nodes and the number of times each one was accessed. To put it simply, all possible trees are generated, and the most efficient tree is returned by the program. The main purpose of this project was to practice "top-down dynamic programming".</p>
-				</div>
-			</div>
-
-			<!-- Semaphore From Scratch (CS1550 Proj 3) -->
-			<div class="row" id="description1" style="display: none">
-				<div class="col-12">
-					<h5>Semaphore</h5>
-					<p>Language Used: C</p>
-					<p>This program's files are placed inside the root domain of the OS, thus adding syscall functions that allow different threads to safely access shared resources. The main purpose of this project was to understand how sempahores work with threads, and to work with lower level code.</p>
-				</div>
-			</div>
-
 			<!-- Custom Minecraft Server Plugin -->
-			<div class="row" id="description2" style="display: none">
+			<div class="row" id="description0" style="display: block">
 				<div class="col-12">
 					<h5>Minecraft Plugin</h5>
 					<p>Language Used: Java</p>
 					<p>This minecraft plugin works inside my minecraft server alongside plugins made by other developers. It is a custom shop plugin which listens for certain in-game events and interacts with the player/client. The purpose of this project was to learn how to use an API in my code (in this case, the minecraft Spigot API), and practice coding for practical purposes (my minecraft server).</p>
+				</div>
+			</div>
+
+			<!-- Team Game Project -->
+			<div class="row" id="description1" style="display: none">
+				<div class="col-12">
+					<h5>Multiplayer Game With Custom Game Engine</h5>
+					<p>Language Used: C++</p>
+					<p>This is a puzzle and stealth based game in which 2 players must collaborate in real time to complete a level. An agent runs around the level completing tasks and knocking out guards while a hacker assists him with opening sealed doors and collaborating on puzzles. The game is built with a custom game engine built from the ground up. It has custom AI and level generation, and a publicly accessible game server is hosted on google cloud. I worked on the networking team which consisted of 2 other people. The group in total involved 10 people including me all working remotely. Git was used for version control.</p>
+				</div>
+			</div>
+
+			
+			<!-- Binary Search Tree (CS1501 Proj 2) -->
+			<div class="row" id="description2" style="display: none">
+				<div class="col-12">
+					<h5>Binary Search Tree</h5>
+					<p>Language Used: Java</p>
+					<p>This program looks for an optimal "Binary Search Tree" given a set of nodes and the number of times each one was accessed. To put it simply, all possible trees are generated, and the most efficient tree is returned by the program. The main purpose of this project was to practice "top-down dynamic programming".</p>
 				</div>
 			</div>		
 		</div>
